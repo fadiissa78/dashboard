@@ -1,0 +1,27 @@
+<label>
+ <input class="toggle-checkbox" type="checkbox" checked>
+ <div class="toggle-switch"></div>
+</label>
+
+
+.bar{
+    background-color: red;
+    display: block;
+    height: 20px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background-color: yellow;
+}
+.html{
+    width: 50%;
+}
+
+<span class="bar"><span class="html"></span></span>
+
+style="width: 80%; background:#22c55e;" class="html"
